@@ -1,0 +1,136 @@
+html *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color:  rgb(8, 44, 78);
+    padding: 20px 80px 20px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin: 0px 15px 0px 15px;
+}
+.navbar a:hover{
+    background-color: #2de3e3;
+}
+#navheading{
+    float: left;
+    color: white;
+    font-size:large;
+    margin: 0;
+    padding: 0;
+}
+.part1{
+    background-color:  rgb(8, 44, 78);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px 40px 80px;
+}
+.container2 {
+    padding: 40px 40px 40px 40px;
+}
+.part1 > .container1 p,h1{
+    color: white;
+}
+.part1 > .container1 h1{
+    font-size: 50px;
+}
+.part1 > .container1 button{
+    border-radius: 29px;
+    background-color:  rgb(8, 44, 78);
+   border-color: white;
+    margin-top: 50px;
+    height: 60px;
+    width: 150px;
+    font-size: large;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.part1 > .container2 img{
+    height: 300px;
+    width: auto;
+}
+.part2{
+    background-color: white;
+}
+.part2 h3{
+    text-align: center;
+    color: rgb(22, 38, 84) ;
+    font-size: 43px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px 20px 10px;
+    color:  rgb(22, 38, 84);
+}
+.row h4{
+    font-size: 25px;
+}
+.row > #col1{
+background-color: palevioletred;;
+}
+.row > #col2{
+    background-color: rgb(219, 128, 42);
+}
+.row > #col3{
+    background-color: rgb(7, 129, 181) ;
+}
+.row > #col4{
+    background-color:  bisque;
+}
+.col img{
+    height: 100px ;
+    width: auto;
+} 
+.col{
+    margin: 20px 25px;
+    padding: 60px 20px;
+    border-radius: 29px;
+}
+.col .content {
+    display: none;
+    margin-top: 10px;
+}
+
+.col input[type="checkbox"] {
+    display: none;
+}
+
+.col input[type="checkbox"]:checked ~ .content {
+    display: block;
+}
+
+.col input[type="checkbox"]:not(:checked) ~ .content {
+    display: none;
+}
+.part3
+{
+    background-color:   rgb(8, 44, 78);
+    padding-left: 41%;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.part3 a{
+    color: yellow;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
